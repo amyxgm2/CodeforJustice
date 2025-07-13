@@ -1,0 +1,13 @@
+.Team{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.Team img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
