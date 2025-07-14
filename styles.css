@@ -1,5 +1,115 @@
-/*Css reset*/
 *{
+    box-sizing: border-box;
+    margin:0; 
     padding: 0;
-    margin: 0;
+    text-decoration: none;
+}
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+    align-items: baseline;
+    scroll-padding-top: 1px;
+    scroll-behavior: smooth;
+}
+
+.logo { 
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    height: auto;
+}
+header{
+    position: fixed;
+    background-color:white;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 50;
+    align-items: center;
+    box-shadow: 0 4px 6px rgb(117, 198, 117);
+}
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333
+}
+
+.menu a:hover {
+    color: green;
+}
+
+body {
+    padding-top: 1px;
+}
+
+.info-container{
+    background-color: aliceblue;
+    padding: 20px; 
+    margin: 20px auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgb(121, 134, 75);
+    list-style: none;
+}
+
+p {
+    text-align: center;
+}
+
+
+#main-overview {
+    background-color: rgb(136, 144, 99);
+    margin: 0 auto; 
+    padding: 0px;
+}
+.main-video {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: 120px;
+    object-fit: cover;
+}
+
+#website-overview {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(53, 64, 36);
+    padding: 25px;
 } 
+
+li a:hover {
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+
+.menu {
+    float: right;   
+}
+
+
+#statics-impact {
+    background-color: rgb(120, 121, 63);
+    text-align: center;
+}
+ 
+
+ .info-box {
+    background-color: rgb(117, 198, 117);
+    text-align: center;
+ }
+
+ .info-grid{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    gap: 20px;
+}
+
+.image-container {
+    transform: translateX(35px);
+}
