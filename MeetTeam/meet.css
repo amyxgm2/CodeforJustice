@@ -1,3 +1,17 @@
+header{
+    position: fixed;
+    background-color:white;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 50;
+    align-items: center;
+    box-shadow: 0 4px 6px rgb(117, 198, 117);
+}
+cd 
 .Team{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
