@@ -32,7 +32,7 @@ header{
     box-shadow: 0 4px 6px rgb(117, 198, 117);
 }
 .menu a {
-    margin: 0 15px;
+    margin: 15px;
     text-decoration: none;
     font-weight: bold;
     color: #333
@@ -95,6 +95,7 @@ li a:hover {
 #statics-impact {
     background-color: rgb(120, 121, 63);
     text-align: center;
+    color:white;
 }
  
 
@@ -111,5 +112,65 @@ li a:hover {
 }
 
 .image-container {
-    transform: translateX(35px);
+    max-width: 215px;
+    height: auto;
+    display: block;
+    margin: auto;
+    font-size: 200px;
 }
+
+.value-svg img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Padding: 40px;
+    background-color: white;
+    gap: 20px;
+}
+
+/*Scrollable image area*/
+.slider {
+    display: flex; 
+    gap: 20px; 
+    padding: 10px; 
+    width: 80%;
+    overflow-x: auto;
+
+}
+
+.slider img {
+    max-height: 200px;
+}
+
+
+.foodbank-title {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.foodbank-title p{
+font-size: 16px;
+}
+
+
+footer {
+    background-color: green;
+    color: white; 
+    text-align: center; 
+    padding: 25px;
+    margin-top: 40px; 
+}
+
+
+
+
+
+
