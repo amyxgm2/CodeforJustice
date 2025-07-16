@@ -1,0 +1,61 @@
+header{
+    position: fixed;
+    background-color:white;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 50;
+    align-items: center;
+    box-shadow: 0 4px 6px rgb(117, 198, 117);
+}
+
+.menu a {
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333
+}
+
+.menu a:hover {
+    color: green;
+}
+
+.logo { 
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    height: auto;
+}
+
+.FoodbankList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    transform: translateY(15rem);
+    text-align: center;
+    column-gap: 50px;
+}
+
+.FoodbankLocation{
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 25px;
+}
+
+.FoodbankList img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: green;
+    color: white; 
+    text-align: center; 
+    padding: 25px;
+    margin-top: 20rem; 
+}

@@ -1,5 +1,185 @@
-/*Css reset*/
 *{
+    box-sizing: border-box;
+    margin:0; 
     padding: 0;
-    margin: 0;
+    text-decoration: none;
+}
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+    align-items: baseline;
+    scroll-padding-top: 1px;
+    scroll-behavior: smooth;
+}
+
+.logo { 
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    height: auto;
+}
+header{
+    position: fixed;
+    background-color:white;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 50;
+    align-items: center;
+    box-shadow: 0 4px 6px rgb(117, 198, 117);
+}
+.menu a {
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333
+}
+
+.menu a:hover {
+    color: green;
+}
+
+body {
+    padding-top: 1px;
+}
+
+.info-container{
+    background-color: aliceblue;
+    padding: 20px; 
+    margin: 20px auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgb(121, 134, 75);
+    list-style: none;
+}
+
+p {
+    text-align: center;
+}
+
+
+#main-overview {
+    background-color: rgb(136, 144, 99);
+    margin: 0 auto; 
+    padding: 0px;
+}
+.main-video {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: 120px;
+    object-fit: cover;
+}
+
+#website-overview {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(53, 64, 36);
+    padding: 25px;
 } 
+
+li a:hover {
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+
+.menu {
+    float: right;   
+}
+
+
+#statics-impact {
+    background-color: rgb(120, 121, 63);
+    text-align: center;
+    color:white;
+}
+ 
+
+ .info-box {
+    background-color: rgb(117, 198, 117);
+    text-align: center;
+ }
+
+ .info-grid{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
+    gap: 20px;
+}
+
+.image-container {
+    max-width: 215px;
+    height: auto;
+    display: block;
+    margin: auto;
+    font-size: 200px;
+}
+
+.value-svg img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Padding: 40px;
+    background-color: white;
+    gap: 20px;
+}
+
+/*Scrollable image area*/
+.slider {
+    display: flex; 
+    gap: 20px; 
+    padding: 10px; 
+    width: 80%;
+    overflow-x: auto;
+
+}
+
+.slider img {
+    max-height: 200px;
+}
+
+
+.foodbank-title {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.foodbank-title p{
+font-size: 16px;
+}
+
+
+footer {
+    background-color: green;
+    color: white; 
+    text-align: center; 
+    padding: 25px;
+    margin-top: 40px; 
+}
+
+@media screen and (max-width: 320px) {
+body {
+    font-size: 14px;
+}
+
+.menu {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.menu a {
+    text-align: center;
+}
+}
