@@ -169,8 +169,17 @@ footer {
     margin-top: 40px; 
 }
 
+@media screen and (max-width: 320px) {
+body {
+    font-size: 14px;
+}
 
-
-
-
-
+.menu {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.menu a {
+    text-align: center;
+}
+}
