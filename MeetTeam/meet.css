@@ -11,12 +11,14 @@ header{
     align-items: center;
     box-shadow: 0 4px 6px rgb(117, 198, 117);
 }
-cd 
+
 .Team{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
-    flex-wrap: wrap;
+    transform: translateY(15rem);
+    text-align: center;
+    column-gap: 50px;
 }
 
 .Team img{
@@ -24,4 +26,28 @@ cd
     height: auto;
     object-fit: contain;
     margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.menu a {
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333
+}
+
+.menu a:hover {
+    color: green;
+}
+
+.logo { 
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    height: auto;
+}
+
+.Teammate{
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 25px;
 }
