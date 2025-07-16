@@ -51,3 +51,11 @@ header{
     box-shadow: 5px 5px 5px 5px;
     border-radius: 25px;
 }
+
+footer {
+    background-color: green;
+    color: white; 
+    text-align: center; 
+    padding: 25px;
+    margin-top: 20rem; 
+}
